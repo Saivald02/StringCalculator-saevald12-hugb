@@ -1,14 +1,15 @@
-package is.ru.StringCalculator
+package is.ru.StringCalculator;
 
-import static org.junit.Assert.assertEqual;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-public class StringCalculatorTest 
+public class StringCalculatorTest
 {
     
     @Test
     public void testEmptyString()
     {
-    	assertEquals(0, StringCalculator.add(""));
+    	assertEquals(9, StringCalculator.add(""));
+    	
     }
 }
