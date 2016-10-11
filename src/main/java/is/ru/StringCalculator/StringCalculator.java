@@ -4,7 +4,7 @@ public class StringCalculator
 {
     public static int add(String text) 
     {
-    	return -19;
+    	return 0;
     }
 	
 }

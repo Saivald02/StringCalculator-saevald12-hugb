@@ -9,7 +9,7 @@ public class StringCalculatorTest
     @Test
     public void testEmptyString()
     {
-    	assertEquals(9, StringCalculator.add(""));
+    	assertEquals(0, StringCalculator.add(""));
     	
     }
 }
